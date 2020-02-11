@@ -1,0 +1,65 @@
+html {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+}
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 993px) {
+  .time {
+    display: none;
+  }
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.28rem;
+  line-height: 110%;
+  margin: 1.52rem 0 0.912rem 0;
+}
+table {
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: none;
+}
+tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+td,
+th {
+  padding: 15px 5px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+table > tbody > tr {
+  -webkit-transition: background-color 0.25s ease;
+  transition: background-color 0.25s ease;
+}
+table > tbody > tr:hover {
+  background-color: rgba(242, 242, 242, 0.5);
+}
+
+a {
+  color: #039be5;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
